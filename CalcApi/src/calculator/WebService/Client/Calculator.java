@@ -18,7 +18,6 @@ import javax.xml.ws.WebServiceFeature;
  *
  */
 @WebServiceClient(name = "Calculator", targetNamespace = "http://tempuri.org/", wsdlLocation = "http://www.dneonline.com/calculator.asmx?wsdl")
-//@HandlerChain(file="handler-chain.xml")
 public class Calculator
 		extends Service
 {
